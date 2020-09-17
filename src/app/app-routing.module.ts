@@ -11,10 +11,10 @@ import { RegistroComponent } from './pages/registro/registro.component';
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registro', component: RegistroComponent },
-  { path: ' listado_usuario', component: ListadoUsuarioComponent },
-  { path: ' detalle_usuario/:id', component: DetalleUsuarioComponent },
-  { path: ' listado_recurso', component: ListadoRecursoComponent },
-  { path: ' detalle_recurso/:id', component: DetalleRecursoComponent },
+  { path: 'listado_usuario', component: ListadoUsuarioComponent },
+  { path: 'detalle_usuario/:id', component: DetalleUsuarioComponent },
+  { path: 'listado_recurso', component: ListadoRecursoComponent },
+  { path: 'detalle_recurso/:id', component: DetalleRecursoComponent },
 ];
 
 @NgModule({

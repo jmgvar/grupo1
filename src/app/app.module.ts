@@ -11,7 +11,7 @@ import { EdicionUsuacioComponent } from './pages/edicion-usuario/edicion-usuario
 import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { RecursoComponent } from './pages/recurso/recurso.component';
-import { UsuariosComponent } from './pages/usuario/usuarios.component';
+import { UsuarioComponent } from './pages/usuario/usuario.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -26,7 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
     LoginComponent,
     RegistroComponent,
     RecursoComponent,
-    UsuariosComponent,
+    UsuarioComponent,
     HeaderComponent,
     FooterComponent
   ],
