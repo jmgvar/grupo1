@@ -7,13 +7,15 @@ import { ListadoUsuarioComponent } from './pages/listado/listado-usuario/listado
 import { ListadoRecursoComponent } from './pages/listado/listado-recurso/listado-recurso.component';
 import { DetalleRecursoComponent } from './pages/detalle/detalle-recurso/detalle-recurso.component';
 import { DetalleUsuarioComponent } from './pages/detalle/detalle-usuario/detalle-usuario.component';
-import { EdicionUsuacioComponent } from './pages/edicion-usuario/edicion-usuario.component';
+import { EdicionUsuarioComponent } from './pages/usuario/edicion-usuario/edicion-usuario.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { RecursoComponent } from './pages/recurso/recurso.component';
 import { UsuarioComponent } from './pages/usuario/usuario.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ListadoRecursoComponent,
     DetalleRecursoComponent,
     DetalleUsuarioComponent,
-    EdicionUsuacioComponent,
+    EdicionUsuarioComponent,
     LoginComponent,
     RegistroComponent,
     RecursoComponent,
@@ -32,7 +34,9 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

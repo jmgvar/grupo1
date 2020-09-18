@@ -19,11 +19,13 @@ export class LoginComponent implements OnInit {
   }
 
   login(): void{
-
+    if(true){
+      this.router.navigate(['users']);
+    }   
   }
   
   register(): void{
-   
+    this.router.navigate(['registro']);
   } 
 
 }
